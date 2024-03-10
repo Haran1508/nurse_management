@@ -1,0 +1,28 @@
+{
+  "name": "tracking-app",
+  "version": "1.0.0",
+  "description": "Tracking users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.9",
+    "nodemon": "^2.0.20",
+    "randomstring": "^1.3.0",
+    "uuid": "^9.0.0"
+  }
+}
